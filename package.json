@@ -1,0 +1,14 @@
+{
+  "name": "@alo7i/frontend-style-guide",
+  "version": "1.0.0",
+  "description": "Frontend style guide.",
+  "homepage": "https://github.com/alo7i",
+  "author": {
+    "name": "afeiship",
+    "email": "1290657123@qq.com"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
