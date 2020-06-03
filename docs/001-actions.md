@@ -1,4 +1,5 @@
 # actions
+> Git commit message 的常用动词。
 
 ## basic
 ~~~
