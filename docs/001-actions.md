@@ -17,5 +17,15 @@ revert: 回滚到上一个/某个版本
 ## extension
 ~~~
 add: 新增小功能 如加一个类型或者一个button
-opt: 同上，优化相关，偏代写法，或者优雅程度上的优化
+~~~
+
+## 关于release-notes
+> git log --pretty=oneline --since=2.weeks
+> git log --since=2.weeks
+> git log --pretty="%h - %s" --since="2020-05-23" --before="2020-06-03"
+> 根据这个命令生成相关的 git log
+
+~~~
+feat(version): 功能
+fix(version): 修复
 ~~~
