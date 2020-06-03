@@ -19,13 +19,13 @@ revert: 回滚到上一个/某个版本
 add: 新增小功能 如加一个类型或者一个button
 ~~~
 
-## 关于release-notes
-> git log --pretty=oneline --since=2.weeks
-> git log --since=2.weeks
-> git log --pretty="%h - %s" --since="2020-05-23" --before="2020-06-03"
-> 根据这个命令生成相关的 git log
-
+## release-notes
 ~~~
+git log --pretty=oneline --since=2.weeks
+git log --since=2.weeks
+git log --pretty="%h - %s" --since="2020-05-23" --before="2020-06-03"
+根据这个命令生成相关的 git log
+
 feat(version): 功能
 fix(version): 修复
 ~~~
