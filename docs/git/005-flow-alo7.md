@@ -1,7 +1,7 @@
 # flow for alo7
 > Git flow for frontend team.
 
-### 新功能开发
+### feature
 1. `git flow` 起一个 `feature` 的临时分支
 2. 开发功能/git 提交代码
 3. `gitlab` 手动新建一个 `merge request`
@@ -25,11 +25,11 @@ git push
 git flow feature aric/parser
 ```
 
-### 紧急BUG修复
+### hotfix
 
-### 发版
+### release
 
-### Tag
+### tag
 
 
 ### resources
