@@ -4,6 +4,7 @@
 ## initialize
 ```shell
 # 1. create branches
+git branch develop
 git branch beta
 git branch staging
 
