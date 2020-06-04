@@ -18,10 +18,10 @@ git add --all
 git commit -m "feat: parser done."
 git push
 
-# 3. go to gitlab new Merge Request
-# 4. wait code review
-# 5. merge code to develop
-# 6. git finsh `aric/parser`
+# 3. Go to gitlab new Merge Request
+# 4. Wait code review
+# 5. Merge code to develop
+# 6. Finsh `aric/parser`
 git flow feature aric/parser
 ```
 
