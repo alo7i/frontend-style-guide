@@ -30,3 +30,9 @@ git flow feature aric/parser
 ### 发版
 
 ### Tag
+
+
+### resources
+- https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow
+- https://zhangmengpl.gitbooks.io/gitlab-guide/content/whatisgitflow.html
+- https://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html
