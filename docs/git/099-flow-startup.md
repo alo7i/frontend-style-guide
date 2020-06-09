@@ -1,6 +1,10 @@
 # flow for alo7
 > Git flow for frontend team.
 
+## 特点
+1. 新启动的项目。
+2. 功能点都比较大，在时间充足的情况下，建议每次代码都做 code reivew
+
 ### feature
 1. `git flow` 起一个 `feature` 的临时分支
 2. 开发功能/git 提交代码
@@ -24,15 +28,3 @@ git push
 # 6. Finsh `aric/parser`
 git flow feature aric/parser
 ```
-
-### hotfix
-
-### release
-
-### tag
-
-
-### resources
-- https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow
-- https://zhangmengpl.gitbooks.io/gitlab-guide/content/whatisgitflow.html
-- https://danielkummer.github.io/git-flow-cheatsheet/index.zh_CN.html

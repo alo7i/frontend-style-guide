@@ -10,7 +10,7 @@ git flow init
 # Which branch should be used for bringing forth production releases?
 - master
 # Which branch should be used for integration of the "next release"?
-- develop(beta)
+- develop(alpha)
 
 # 3. others
 # How to name your supporting branch prefixes?
