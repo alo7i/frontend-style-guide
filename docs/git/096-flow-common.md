@@ -4,9 +4,18 @@
 ## gitflow 
 > git flow 的 各个流程描述。
 
+### gitlab branches
+| branch  | permission | need_merge | description              |
+| ------- | ---------- | ---------- | ------------------------ |
+| develop | public     | false      | gitflow-develop          |
+| beta    | protected  | true       | 一般给测试人员使用的分支 |
+| staging | public     | false      | 这是是预发布环境         |
+| master  | protected  | true       | 线上稳定的代码           |
+
+
 ### hotfixs
 1. 这里 gitflow 会在 master 分支拉取代码
-2. 最终会合并代码回 develop/master 分支上去?(这里又涉及权限问题)
+2. 最终会合并代码回 develop/staging 分支上去?(这里又涉及权限问题)
 3. `git flow` 起一个 `hotfix-1` 的临时分支
 4. 开发: 修复好相关的 `bug`
 5. git push --set-upstream origin hotfix/hotfix-1 到远程
@@ -14,8 +23,8 @@
 
 
 ### releases<Maintainer>
-1. 项目分支 master 为 relase 分支
-2. 一般项目的 master 有特定的人会有这个权限来做这个操作。
+1. 项目分支 staging 为 relase 分支
+2. 一般项目的 staging 有特定的人会有这个权限来做这个操作。
 3. 确定版本号: git flow release start 1.21.0
 4. git flow release finish 1.21.0
 5. 这个时候会产生新的 tag ，需要 push 到远程: git push origin --tags
@@ -39,18 +48,21 @@
 - 手动 develop -> beta ，这个过程需要 (code review)
 - 最终完成 develop -> beta 版代码合并
 
-### staging(gitlab-有权限保护)
-- 还是保持原样
-- 这里 developer 还是保持原来的流程; 手动写 merge requst 来完成 beta 到 staging 的合并
-- Mantainer 可以直接 merge；但一般推荐和 develop 走一样的流程
-
-### master(gitlab-有权限保护)
+### staging
 - 这个过程其实是一个 release 的过程
 - git flow release start 1.20.0
 - 可能存在 conflict (理论上不应该出现)
 - git flow release finish 1.20.0
 - git push
-- 权限问题: 所以这个操作需要 Mantainer 来进行
+- 这个权限是 public，所以可以完全交给 gitflow 来维护
+
+## master(gitlab-有权限保护)
+- 这里永远是 staging -> master
+- 这里需要通过 mergeRequst方式完成
+- NoOne可以直接进行操作
+
+### master(hotfix/protected)
+- https://github.com/petervanderdoes/gitflow-avh/issues/358
 
 ### resources
 - https://www.git-tower.com/learn/git/ebook/cn/command-line/advanced-topics/git-flow
