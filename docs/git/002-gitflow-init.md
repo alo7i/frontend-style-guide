@@ -8,9 +8,9 @@ git flow init
 
 # 2.
 # Which branch should be used for bringing forth production releases?
-- master
+- staging (由于master是protected，所以这里要选预发布分支)
 # Which branch should be used for integration of the "next release"?
-- develop(alpha)
+- develop 
 
 # 3. others
 # How to name your supporting branch prefixes?
