@@ -1,5 +1,11 @@
 # release
 
+## steps
+1. 处在 develop 分支
+2. git flow release start 1.22.0
+3. git flow release finish 1.22.0
+4. git push origin --tags
+
 ## generate-release
 ```shell
 npm install -g node-generate-release
