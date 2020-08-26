@@ -51,10 +51,13 @@
 - 最终完成 develop -> beta 版代码合并
 
 ### staging
-- 这个过程其实是一个 release 的过程
+- 一般是 beta -> staging ，这个过程可能有多次
+- staging 确认稳定之后，到本地切到 staging, `git pull`
+- 这个时候可以执行 `release` 的过程
 - git flow release start 1.20.0
 - 可能存在 conflict (理论上不应该出现)
 - git flow release finish 1.20.0
+- git push origin --tags
 - git push
 - 这个权限是 public，所以可以完全交给 gitflow 来维护
 
