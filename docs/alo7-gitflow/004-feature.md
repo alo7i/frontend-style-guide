@@ -9,9 +9,12 @@
 2. develop
 > balalba...
 
-3. publish(实际上在start完成也可以publish,这一步实际上是把 feature分支推送到 origin)
-> git flow feature publish abc
-
-4. push code
+3. push code
 > git add --all && git commit -m "feat: abc start & finish" && git push
 
+4. finish develop
+> 找到 gitlab ，创建 MR
+
+5. review通过之后(注意，这里不能直接使用 git finish)
+> git branch -d feature/abc
+> git checkout develop
