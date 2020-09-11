@@ -1,7 +1,7 @@
 # gitlab
 
 ## 分支权限设置
-- https://git.saybot.net/aric.zheng/gitlab-flow/-/settings/repository
+- https://gitlab.demo.com/gitlab-flow/-/settings/repository
 
 ## settings
 <img width="800" src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gimtrzrivcj31by0gidi9.jpg" />
