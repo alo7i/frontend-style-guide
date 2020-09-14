@@ -1,5 +1,5 @@
 # feature/bugfix
-
+> 以下是 feature/bugfix的开发步骤
 
 ## steps
 1. start feature
@@ -28,13 +28,13 @@
     Fatal: And branch 'develop' may be fast-forwarded.
    ~~~
 
-6. review通过之后(注意，这里不能直接使用 git finish)
+6. review通过之后(注意，这里不能直接使用 git finish)(6/7任选一种适合自己的方案即可)
   ```shell
   git branch -d feature/abc
   git checkout develop
   ```
 
-7. 或者使用下面的方式(理论上这一步之后，不应该有任何的git push)
+7. 或者使用下面的方式(理论上这一步之后，不应该有任何的git push)(6/7任选一种适合自己的方案即可)
   ```shell
   # 这个过程，可能需要处理 conflict
   git checkout develop && git pull && git checkout
