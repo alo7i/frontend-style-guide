@@ -37,6 +37,6 @@
 7. 或者使用下面的方式(理论上这一步之后，不应该有任何的git push)(6/7任选一种适合自己的方案即可)
   ```shell
   # 这个过程，可能需要处理 conflict
-  git checkout develop && git pull && git checkout
+  git checkout develop && git pull && git checkout -
   git flow finish
   ```
