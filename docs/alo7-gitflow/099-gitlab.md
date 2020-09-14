@@ -7,7 +7,8 @@
 <img width="800" src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gimtrzrivcj31by0gidi9.jpg" />
 
 ## gitlab不要删除远程分支(否则gitlab报错)
-- [Enable 'Delete source branch' option by default](https://gitlab.demo.com/gitlab-flow/edit#js-merge-request-settings) 这个关掉，不要主动删除远程分支，让 git-flow 来删除
+- 这个关掉，不要主动删除远程分支，让 git-flow 来删除
+- [Enable 'Delete source branch' option by default](https://gitlab.demo.com/gitlab-flow/edit#js-merge-request-settings) 
 <img width="800" src="https://tva1.sinaimg.cn/large/007S8ZIlgy1gimugi1bnpj31cm0coq5s.jpg" />
 
 ## staging/develop
