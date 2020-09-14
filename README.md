@@ -1,10 +1,10 @@
 # frontend-style-guide
 > Frontend style guide.
 
-## gitflow
+
+## alo7-gitflow
 <img src="https://danielkummer.github.io/git-flow-cheatsheet/img/git-flow-commands.png" width="800">
 
-## alo7
 - [初始化一个gitflow项目](./docs/alo7-gitflow/001-initialize.md)
 - [清理gitflow](./docs/alo7-gitflow/002-clean.md)
 - [更新gitlow配置](./docs/alo7-gitflow/003-update.md)
