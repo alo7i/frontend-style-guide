@@ -11,18 +11,21 @@
   ```shell
   git flow hotfix publish
   ```
-3. develop 开发，修复代码，提交
+3. 在 hotfix/1.22.1 上开发，修复代码，提交
   ```shell
   git add --all && git commit -m "fix: xxx" && git push
   ```
-4. finish这个修复
+4. 提交完成之后，提交 merge request 让QA验证
+   1. mr: hotfix/1.22.1 -> beta
+   2. 验证完成之后继续
+5. finish这个修复
   ```shell
   # 因为这个会自动打tag, 这个是 tag 的msg
   git flow hotfix finish -p -m "1.22.12"
   
   # 各种填信息，然后就完成了
   ```
-5. 没问题的情况下，测试通过
+6. 没问题的情况下，测试通过
    1. 提交 mr: staging -> master
    2. 等delopy，然后上线测试
 
