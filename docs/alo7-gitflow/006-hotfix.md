@@ -21,7 +21,7 @@
 5. finish这个修复
   ```shell
   # 因为这个会自动打tag, 这个是 tag 的msg
-  git flow hotfix finish -p -m "1.22.12"
+  git flow hotfix finish -p -m "1.22.1"
   
   # 各种填信息，然后就完成了
   ```
