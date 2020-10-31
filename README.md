@@ -11,4 +11,5 @@
 - [feat/fix: 开发feature/bug](./docs/alo7-gitflow/004-feature.md)
 - [release: 发布版本](./docs/alo7-gitflow/005-release.md)
 - [hotfix: 线上紧急bug修复](./docs/alo7-gitflow/006-hotfix.md)
+- [cleaup: 清除无用的branch](./docs/alo7-gitflow/007-cleanup.md)
 - [gitlab设置](./docs/alo7-gitflow/099-gitlab.md)
