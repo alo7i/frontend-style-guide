@@ -21,6 +21,8 @@
    2. develop: 开发最新代码
    3. beta: beta环境代码，上beta环境使用
    4. staging: 预发布环境
+   5. feature/xxx: 临时功能开发分支
+   6. hotfix/xxx: 临时线上问题修复分支
 - 开发一个功能
    1. 可以利用git flow 产生一个分支: `feature/{nickname}/my-new-feature`
    2. 提交到线上管理: `git flow feature publish my-new-feature` 
